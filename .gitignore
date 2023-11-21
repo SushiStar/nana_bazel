@@ -52,5 +52,5 @@ cmake_install.cmake
 .vscode
 bazel-bin
 bazel-out
-bazel-nana
+bazel-nana_bazel
 bazel-testlogs
