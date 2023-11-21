@@ -1,0 +1,7 @@
+
+build --action_env=CC=/usr/local/bin/gcc-13
+build --action_env=CXX=/usr/local/bin/g++-13
+
+build --cxxopt='-std=c++17'
+build --host_cxxopt='-std=c++17'
+
