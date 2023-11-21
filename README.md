@@ -1,7 +1,9 @@
-# Nana C++ Library 
+# Nana C++ Library
+This is a fork of [nana](https://github.com/cnjinhao/nana) library, adapted into bazel build system.
+
 [Linux (gcc 8.3.0 and 9.2)![TravisCI build status](https://travis-ci.org/cnjinhao/nana.svg)](https://travis-ci.org/cnjinhao/nana)  including [(nana-demos)](https://github.com/qPCR4vir/nana-demo)
 
-[Windows (Microsoft (R) Build Engine version 15.9.21) ![AppVeyor build status](https://ci.appveyor.com/api/projects/status/5j79p9fi887usv7h?svg=true)](https://ci.appveyor.com/project/qPCR4vir/nana) 
+[Windows (Microsoft (R) Build Engine version 15.9.21) ![AppVeyor build status](https://ci.appveyor.com/api/projects/status/5j79p9fi887usv7h?svg=true)](https://ci.appveyor.com/project/qPCR4vir/nana)
 
 [![Licence](https://img.shields.io/badge/license-BSL-blue.svg?style=flat)](LICENSE)
 
