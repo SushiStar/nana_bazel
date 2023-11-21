@@ -50,3 +50,7 @@ cmake_install.cmake
 *.db
 *.opendb
 .vscode
+bazel-bin
+bazel-out
+bazel-nana
+bazel-testlogs
