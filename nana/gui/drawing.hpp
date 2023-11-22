@@ -12,8 +12,8 @@
 #ifndef NANA_GUI_DRAWING_HPP
 #define NANA_GUI_DRAWING_HPP
 
-#include "../traits.hpp"
-#include "widgets/widget.hpp"
+#include "nana/common/traits.hpp"
+#include "nana/gui/widgets/widget.hpp"
 namespace nana {
 /// \brief Draw pictures on a widget by specifying a drawing method that will be
 /// employed every time the widget refreshes.

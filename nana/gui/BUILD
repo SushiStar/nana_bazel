@@ -1,6 +1,50 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
-# The very base part, without any dependency.
+cc_library(
+    name = "basis",
+    srcs = [
+        "basis.cpp",
+    ],
+    hdrs = [
+        "basis.hpp",
+    ],
+    deps = [
+        "//nana/common:base",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "darwing",
+    srcs = [
+        "drawing.cpp",
+    ],
+    hdrs = [
+        "drawing.hpp",
+    ],
+    deps = [
+        "//nana/common:base",
+        "//nana/gui/widget",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "programming_interface",
+    srcs = [
+        "programming_interface.cpp",
+    ],
+    hdrs = [
+        "programming_interface.hpp",
+    ],
+    deps = [
+        "//nana/common",
+        "//nana/gui/detail:detail",
+        "//nana/gui/widget",
+        "//nana/paint:image",
+    ]
+)
+
 cc_library(
     name = "animation",
     srcs = [
@@ -12,26 +56,12 @@ cc_library(
     deps = [
         "//nana/common:base",
         "//nana/paint:paint",
-        "//nana/gui:gui",
+        "//nana/gui:drawing",
         "//nana/system:system",
     ],
     visibility = ["//visibility:public"],
 )
 
-cc_library(
-    name = "basis",
-    srcs = [
-        "basis.cpp",
-    ],
-    hdrs = [
-        "basis.hpp",
-    ],
-    deps = [
-        "//nana/common:base",
-        "//nana/gui:gui",
-    ],
-    visibility = ["//visibility:public"],
-)
 
 cc_library(
     name = "category",
