@@ -15,5 +15,6 @@ cc_library(
     visibility = ["//visibility:public"],
     deps = [
         "//nana/common:base",
+        "//nana/system:platform",
     ],
 )
