@@ -12,26 +12,25 @@
  *					dankan1890(PR#156)
  */
 
+#include "nana/gui/place.hpp"
+#include "nana/common/deploy.hpp"
+#include "nana/gui/dragger.hpp"
+#include "nana/gui/drawing.hpp"
+#include "nana/gui/place_parts.hpp"
+#include "nana/gui/programming_interface.hpp"
+#include "nana/gui/widgets/label.hpp"
+#include "nana/gui/widgets/panel.hpp"
+
 #include <algorithm>
+#include <cctype> //std::isalpha/std::isalnum
 #include <cfloat>
 #include <cmath>
-#include <map>
-#include <nana/deploy.hpp>
-#include <nana/gui/dragger.hpp>
-#include <nana/gui/drawing.hpp>
-#include <nana/gui/place.hpp>
-#include <nana/gui/programming_interface.hpp>
-#include <nana/gui/widgets/label.hpp>
-#include <nana/gui/widgets/panel.hpp>
-#include <set>
-
-#include <cctype>  //std::isalpha/std::isalnum
 #include <cstdlib> //std::abs
 #include <cstring> //std::memset
 #include <limits>  //numeric_limits
+#include <map>
 #include <memory>
-
-#include "place_parts.hpp"
+#include <set>
 
 namespace nana {
 struct badname : place::error {

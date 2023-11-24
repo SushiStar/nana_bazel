@@ -12,9 +12,9 @@
 
 #ifndef NANA_GUI_DRAGGER_HPP
 #define NANA_GUI_DRAGGER_HPP
-#include "../basic_types.hpp"
-#include "../traits.hpp"
-#include "basis.hpp"
+#include "nana/common/basic_types.hpp"
+#include "nana/common/traits.hpp"
+#include "nana/gui/basis.hpp"
 
 namespace nana {
 /// \brief Helper class that allows the user to drag windows.

@@ -12,8 +12,9 @@
 #ifndef NANA_GUI_ELEMENT_HPP
 #define NANA_GUI_ELEMENT_HPP
 
-#include <nana/paint/graphics.hpp>
-#include <nana/pat/cloneable.hpp>
+#include "nana/paint/graphics.hpp"
+#include "nana/pat/cloneable.hpp"
+
 #include <vector>
 
 namespace nana {

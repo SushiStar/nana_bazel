@@ -13,11 +13,11 @@
 #ifndef NANA_GUI_DRAGDROP_INCLUDED
 #define NANA_GUI_DRAGDROP_INCLUDED
 
-#include "basis.hpp"
-#include <functional>
+#include "nana/gui/basis.hpp"
 
+#include <filesystem>
+#include <functional>
 #include <memory>
-#include <nana/filesystem/filesystem.hpp>
 
 namespace nana {
 /// Drag and drop actions

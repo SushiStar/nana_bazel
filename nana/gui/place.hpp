@@ -16,9 +16,9 @@
 
 #ifndef NANA_GUI_PLACE_HPP
 #define NANA_GUI_PLACE_HPP
+#include "nana/gui/basis.hpp"
 #include <functional>
 #include <memory>
-#include <nana/gui/basis.hpp>
 
 namespace nana {
 namespace paint {

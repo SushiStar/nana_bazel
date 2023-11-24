@@ -12,8 +12,8 @@
 
 #ifndef NANA_GUI_NOTIFIER_HPP
 #define NANA_GUI_NOTIFIER_HPP
-#include <nana/gui/basis.hpp>
-#include <nana/gui/detail/general_events.hpp>
+#include "nana/gui/basis.hpp"
+#include "nana/gui/detail/general_events.hpp"
 
 namespace nana {
 class notifier;

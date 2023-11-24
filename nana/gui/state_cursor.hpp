@@ -10,19 +10,19 @@
  *	@file: nana/gui/state_cursor.hpp
  */
 
-#include <nana/gui/basis.hpp>
-namespace nana
-{
-	class state_cursor
-	{
-		state_cursor(const state_cursor&) = delete;
-		state_cursor& operator=(const state_cursor&) = delete;
-	public:
-		state_cursor(window, cursor);
-		state_cursor(state_cursor&&);
-		state_cursor& operator=(state_cursor&&);
-		~state_cursor();
-	private:
-		window handle_;
-	};
-}
+#include "nana/gui/basis.hpp"
+namespace nana {
+class state_cursor {
+  state_cursor(const state_cursor &) = delete;
+  state_cursor &operator=(const state_cursor &) = delete;
+
+public:
+  state_cursor(window, cursor);
+  state_cursor(state_cursor &&);
+  state_cursor &operator=(state_cursor &&);
+  ~state_cursor();
+
+private:
+  window handle_;
+};
+} // namespace nana
